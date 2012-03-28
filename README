@@ -1,0 +1,31 @@
+googl(1)                         User Commands                        googl(1)
+
+
+
+NAME
+       googl - google url shortener
+
+
+SYNOPSIS
+       googl [url]
+
+
+DESCRIPTION
+       Shorten your URLs from the command line.
+
+
+NOTES
+       All goo.gl URLs and click analytics are public and can be accessed by anyone.
+
+
+EXAMPLES
+       googl http://reader.google.com
+
+
+SEE ALSO
+       curl, grep, pbpaste
+
+       Please file bugs at https://github.com/rainerborene/googl/
+
+
+googl                              March 2012                         googl(1)

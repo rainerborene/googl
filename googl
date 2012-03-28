@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+
+URL=$1
+
+#
+# Shortener
+#
+
+shorten() {
+  local response=`curl -s https://www.googleapis.com/urlshortener/v1/url \
+    -H "Content-Type: application/json" \
+    -d "{'longUrl': '$URL'}" \
+    -X POST`
+
+  local shortened=`echo $response | grep --color=never -Eo http://goo.gl/\[^\"\]+`
+
+  if [ -z $shortened ]; then
+    echo "Error: Something went wrong."
+  else
+    echo $shortened | pbcopy && echo $shortened
+  fi
+}
+
+#
+# Required argument
+#
+
+if [ -z $URL ]; then
+  echo "Error: Argument required."
+  exit
+fi
+
+# Go!
+shorten
