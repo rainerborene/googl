@@ -10,6 +10,10 @@ SYNOPSIS
        googl [url]
 
 
+AVAILABILITY
+       bash, zsh
+
+
 DESCRIPTION
        Shorten your URLs from the command line.
 
@@ -20,7 +24,7 @@ NOTES
 
 
 EXAMPLES
-       googl http://reader.google.com
+       googl http://github.com
 
 
 SEE ALSO
