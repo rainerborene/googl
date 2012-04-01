@@ -7,7 +7,7 @@ NAME
 
 
 SYNOPSIS
-       googl [url]
+       googl [options] [cmd]
 
 
 AVAILABILITY
@@ -17,20 +17,27 @@ AVAILABILITY
 DESCRIPTION
        Shorten your URLs from the command line.
 
+       For more information about it, you can use its --help flag.
+
 
 NOTES
-       All goo.gl URLs and click analytics are public and can be accessed by
+       All  goo.gl  URLs and click analytics are public and can be accessed by
        anyone.
 
 
 EXAMPLES
        googl http://github.com
+       googl search git
+       googl open git
+       googl ls
 
 
 SEE ALSO
-       curl, grep, pbpaste
+       curl, grep, pbcopy
+
 
        Please file bugs at https://github.com/rainerborene/googl/
 
 
-googl                              March 2012                         googl(1)
+
+googl                             March 2012                          googl(1)
