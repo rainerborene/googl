@@ -5,25 +5,20 @@ googl(1)                         User Commands                        googl(1)
 NAME
        googl - google url shortener
 
-
 SYNOPSIS
        googl [options] [cmd]
 
-
 AVAILABILITY
        bash, zsh
-
 
 DESCRIPTION
        Shorten your URLs from the command line.
 
        For more information about it, you can use its --help flag.
 
-
 NOTES
        All  goo.gl  URLs and click analytics are public and can be accessed by
        anyone.
-
 
 EXAMPLES
        googl http://github.com
@@ -31,10 +26,8 @@ EXAMPLES
        googl open git
        googl ls
 
-
 SEE ALSO
        curl, grep, pbcopy
-
 
        Please file bugs at https://github.com/rainerborene/googl/
 
