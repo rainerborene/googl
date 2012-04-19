@@ -8,9 +8,6 @@ NAME
 SYNOPSIS
        googl [options] [cmd]
 
-AVAILABILITY
-       bash, zsh
-
 DESCRIPTION
        Shorten your URLs from the command line.
 
@@ -26,11 +23,15 @@ EXAMPLES
        googl open git
        googl ls
 
+AUTHOR
+       Written by Rainer Borene.
+
+REPORTING BUGS
+       Please file bugs at https://github.com/rainerborene/googl/issues/
+
 SEE ALSO
-       curl, grep, pbcopy
-
-       Please file bugs at https://github.com/rainerborene/googl/
+       curl(1), grep(1), pbcopy(1)
 
 
 
-googl                             March 2012                          googl(1)
+Version 0.1                       March 2012                          googl(1)
